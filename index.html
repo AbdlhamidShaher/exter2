@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMED</title>
+
+    <!--link  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+
+    <!--font awesome cdn link  --> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"  />
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="style.css">
+
+
+
+
+</head>
+<body>
+    
+
+<!-- header section starts -->
+<header class="header">
+ <a href="#" class="logo"><img src="imgs\لوجو.png" height="50" alt=" Logo" loading="lazy"></a>
+ 
+ <nav class="navbar">
+    <a href="#features">features</a>
+     <a href="#smartphones">smart phones</a>
+     <a href="#householdappliance">Household appliance</a>
+     <a href="#smartaccessories">smart accessories</a>
+     <a href="#brand"></a>
+     
+ </nav>
+ <div class="icons">
+    
+    <div class="fas fa-search" id="search-btn"></div>
+    <div class="fas fa-shopping-cart" id="cart-btn"><p></p></div>
+    <div class="fas fa-user" id="login-btn"></div>
+    <div class="fas fa-location-dot" id="solid-btn"></div>
+    <div class="fas fa-bars" id="menu-btn"></div>
+ </div>
+ <form action="" class="search-form">
+    <input type="search" id="search-form" placeholder="search here...">
+    <label for="search-boox" class="fas fa-search"></label>
+ </form>
+
+ <form action="" class="solid-form">
+   <div class="solid-btn"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d437821.1743146485!2d31.118369894388536!3d30.9850483174853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f7ab78f233021f%3A0xc2cdebb004a208f8!2z2YPZgdixINin2YTYtNmK2K7YjCDZgtiz2YUg2YPZgdixINin2YTYtNmK2K7YjCDZg9mB2LEg2KfZhNi02YrYrtiMINin2YTYutix2KjZitip!5e0!3m2!1sar!2seg!4v1684501974580!5m2!1sar!2seg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> </div>
+ </form>
+ 
+ <form action="" class="cart-form">
+    
+ <div class="cart-btn"></div>
+
+ <div class="qqcart">
+
+ <div class="mycart"><h1>MY CART </h1></div>
+  <div class="aacart">your cart is empty</div>   
+  <div class="xxcart"> 
+    <h3>TOTAL</h3>
+    <h5 id="xxtotal">$ 0.00</h5> 
+  </div> 
+</div>
+  </form>
+
+ <form onsubmit="" class=" login-form">
+    <h3>login now</h3>
+    <input type="text" placeholder="your name.." class="boox" id="name">
+    <input type="text" placeholder="your emil.." class="boox" id="emi">
+    <textarea  id="msg" cols="30" rows="4" placeholder="message.." ></textarea>
+    <button   class="btn " id="submits" onclick="">submit</button>
+    <p>forget your password <a href="#" >click here</a></p>
+    <p>don't have an account <a href="#" >create now</a></p>
+    
+ </form>
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts -->
+
+<section class="home" id="home">
+
+    <div class="content">
+      <h3>Shop a variety of <span>mobile phones</span>and tablets from <span>international brands.</span></h3>
+      <p>Browse the best Extra offers today. A large selection of home appliances, mobile phones, cameras, from the best international brands. Safe online shopping and fast delivery</p>
+      
+    </div>
+  
+
+</section>
+
+<!--  -->
+<section class="features" id="features">
+    <h1 class="heading">our <span>features</span></h1>
+
+    <div class="boox-container">
+       <div class="boox"> 
+        <img src="imgs/مارك.png" alt="">
+        <h3>The finest brands</h3>
+        <p>Shop a variety of mobile phones and tablets from international brands.</p>
+        <a href="#" class="btn">read more</a>
+       </div>
+
+       <div class="boox"> 
+        <img src="imgs\توصيل.jpg" alt="">
+        <h3>free Delivery</h3>
+        <p>Fast delivery for next day delivery Whether your shipment is heavy or light in weight </p>
+        <a href="#" class="btn">read more</a>
+       </div>
+
+       <div class="boox"> 
+        <img src="imgs\payment-featured.jpg" alt="">
+        <h3>Easy pryments</h3>
+        <p>Easy Payments Plus, a division of Payzone Ireland provide a ready-made online</p>
+        <a href="#" class="btn">read more</a>
+       </div>
+    
+
+
+
+
+    </div>
+</section>
+
+<!--  -->
+
+<section class="smartphones" id="smartphones">
+    <h1 class="heading">our <span>smart phones</span></h1>
+
+    <div class="swiper smart-slider">
+     <div class="swiper-wrapper"> 
+      <div class="swiper-slide boox">
+        <img src="imgs/ابل ..3.jpg" alt="">
+        <h3>iPhone 14 Pro Max</h3>
+        <dir class="price">$500  </dir>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <a href="#" class="btn">add to cart</a>
+       </div>
+
+       <div class="swiper-slide boox">
+        <img src="imgs/13سامسونج.jpg" alt="">
+        <h3>Samsung Galaxy S23</h3>
+        <dir class="price">$500  </dir>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <a href="#" class="btn">add to cart</a>
+       </div>
+         
+       <div class="swiper-slide boox">
+        <img src="imgs/1هواوي.jpg" alt="">
+        <h3>Mobile Huawei P50 pocket gold premium</h3>
+        <dir class="price">$500  </dir>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <a href="#" class="btn">add to cart</a>
+       </div>
+
+
+       <div class="swiper-slide boox">
+        <img src="imgs\شاومي.jpg" alt="">
+        <h3>Xiaomi 12 Pro 5G mobile</h3>
+        <dir class="price">$500  </dir>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <a href="#" class="btn">add to cart</a>
+       </div>
+
+       <div class="swiper-slide boox">
+        <img src="imgs\ابوا.jpg" alt="">
+        <h3>Android phone Oppo Reno 8T</h3>
+        <dir class="price">$500  </dir>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <a href="#" class="btn">add to cart</a>
+       </div>
+
+     </div>
+    </div>
+
+    <div class="swiper smart-slider">
+        <div class="swiper-wrapper "> 
+         <div class="swiper-slide boox">
+           <img src="imgs\2نوكيا.jpg" alt="">
+           <h3>Nokia X30 smartphone</h3>
+           <dir class="price">$500  </dir>
+           <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+           </div>
+           <a href="#" class="btn">add to cart</a>
+          </div>
+           
+          <div class="swiper-slide boox">
+            <img src="imgs\شاومي.jpg" alt="">
+            <h3>Xiaomi 12 Pro 5G mobile</h3>
+            <dir class="price">$500  </dir>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <a href="#" class="btn">add to cart</a>
+           </div>
+
+
+          <div class="swiper-slide boox">
+           <img src="imgs\16ريلمي.jpg" alt="">
+           <h3>Realme GT Neo 3T</h3>
+           <dir class="price">$500  </dir>
+           <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+           </div>
+           <a href="#" class="btn">add to cart</a>
+          </div>
+   
+          <div class="swiper-slide boox">
+           <img src="imgs\0هونر.png" alt="">
+           <h3>HONOR X9a</h3>
+           <dir class="price">$500  </dir>
+           <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+           </div>
+           <a href="#" class="btn">add to cart</a>
+          </div>
+   
+          <div class="swiper-slide boox">
+           <img src="imgs\1هواوي.jpg" alt="">
+           <h3>Mobile Huawei P50 pocket gold premium</h3>
+           <dir class="price">$500  </dir>
+           <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+           </div>
+           <a href="#" class="btn">add to cart</a>
+          </div>
+   
+        </div>
+    </div>
+
+</section>
+
+<section class="householdappliance" id="householdappliance">
+    <h1 class="heading">our <span>household appliance</span></h1>
+
+    <div class="swiper smart-slider">
+     <div class="swiper-wrapper"> 
+      <div class="swiper-slide boox">
+        <img src="imgs\شاشه.jpg" alt="">
+        <h3>a screen</h3>
+        <dir class="price">$300  </dir>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <a href="#" class="btn">add to cart</a>
+       </div>
+
+       <div class="swiper-slide boox">
+        <img src="imgs\8مقلا هوائيه.jpg" alt="">
+        <h3>air fryer</h3>
+        <dir class="price">$700  </dir>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <a href="#" class="btn">add to cart</a>
+       </div>
+         
+       <div class="swiper-slide boox">
+        <img src="imgs\6مكنسه.jpg" alt="">
+        <h3>vacuum cleaner</h3>
+        <dir class="price">$200  </dir>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <a href="#" class="btn">add to cart</a>
+       </div>
+
+
+       <div class="swiper-slide boox">
+        <img src="imgs\عصاره.jpg" alt="">
+        <h3>Electric juicer</h3>
+        <dir class="price">$300  </dir>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <a href="#" class="btn">add to cart</a>
+       </div>
+
+       <div class="swiper-slide boox">
+        <img src="imgs\ماكينة تحضير 10القهوه.jpg" alt="">
+        <h3>Coffee making machine</h3>
+        <dir class="price">$900  </dir>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <a href="#" class="btn">add to cart</a>
+       </div>
+
+     </div>
+    </div>
+
+    <div class="swiper smart-slider">
+        <div class="swiper-wrapper "> 
+         <div class="swiper-slide boox">
+           <img src="imgs\5مكوا.jpg" alt="">
+           <h3>Small iron</h3>
+           <dir class="price">$90  </dir>
+           <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+           </div>
+           <a href="#" class="btn">add to cart</a>
+          </div>
+           
+          <div class="swiper-slide boox">
+            <img src="imgs\غساله.jpg" alt="">
+            <h3>washing machine</h3>
+            <dir class="price">$800  </dir>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <a href="#" class="btn">add to cart</a>
+           </div>
+
+
+          <div class="swiper-slide boox">
+           <img src="imgs\بوتاجاز.jpg" alt="">
+           <h3>Electric cooker</h3>
+           <dir class="price">$200  </dir>
+           <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+           </div>
+           <a href="#" class="btn">add to cart</a>
+          </div>
+   
+          <div class="swiper-slide boox">
+           <img src="imgs\9مروحه.jpg" alt="">
+           <h3>a fan</h3>
+           <dir class="price">$50  </dir>
+           <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+           </div>
+           <a href="#" class="btn">add to cart</a>
+          </div>
+   
+          <div class="swiper-slide boox">
+           <img src="imgs\مكرويف7.jpg" alt="">
+           <h3>microwave</h3>
+           <dir class="price">$500  </dir>
+           <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+           </div>
+           <a href="#" class="btn">add to cart</a>
+          </div>
+   
+        </div>
+    </div>
+
+</section>
+
+<section class="smartaccessories" id="smartaccessories">
+    <h1 class="heading">our <span>smart accessories</span></h1>
+
+    <div class="swiper smart-slider">
+        <div class="swiper-wrapper"> 
+         <div class="swiper-slide boox">
+         <img src="imgs\15ساعه.jpg" alt="">
+         <h3>Smart watch</h3>
+         <dir class="price">$300  </dir>
+         <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+         </div>
+         <a href="#" class="btn">add to cart</a>
+         </div>
+
+         <div class="swiper-slide boox">
+         <img src="imgs\سماعه.. 11.jpg" alt="">
+         <h3>Smart headphone</h3>
+         <dir class="price">$700  </dir>
+         <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+         </div>
+         <a href="#" class="btn">add to cart</a>
+         </div>
+         
+         <div class="swiper-slide boox">
+         <img src="imgs\كاميره.jpg" alt="">
+         <h3>camera</h3>
+         <dir class="price">$200  </dir>
+         <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+         </div>
+         <a href="#" class="btn">add to cart</a>
+         </div>
+
+
+         <div class="swiper-slide boox">
+         <img src="imgs\لايت.jpg" alt="">
+         <h3>camera</h3>
+         <dir class="price">$300  </dir>
+         <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+         </div>
+         <a href="#" class="btn">add to cart</a>
+         </div>
+
+         <div class="swiper-slide boox">
+         <img src="imgs\ميكروفون 4.jpg" alt="">
+         <h3>microphone</h3>
+         <dir class="price">$900  </dir>
+         <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+         </div>
+         <a href="#" class="btn">add to cart</a>
+         </div>
+       
+         <div class="swiper-slide boox">
+           <img src="imgs\بلاستيشن.jpg" alt="">
+           <h3>Play Station</h3>
+           <dir class="price">$90  </dir>
+           <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+           </div>
+           <a href="#" class="btn">add to cart</a>
+          </div>
+           
+          <div class="swiper-slide boox">
+            <img src="imgs\باور.jpg" alt="">
+            <h3>power bank</h3>
+            <dir class="price">$800  </dir>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <a href="#" class="btn">add to cart</a>
+           </div>
+
+
+          <div class="swiper-slide boox">
+           <img src="imgs\17دراع.jpg" alt="">
+           <h3>PlayStation arm</h3>
+           <dir class="price">$200  </dir>
+           <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+           </div>
+           <a href="#" class="btn">add to cart</a>
+          </div>
+   
+          <div class="swiper-slide boox">
+           <img src="imgs\12سماعه.jpg" alt="">
+           <h3>headphone</h3>
+           <dir class="price">$50  </dir>
+           <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+           </div>
+           <a href="#" class="btn">add to cart</a>
+          </div>
+   
+          <div class="swiper-slide boox">
+           <img src="imgs\لاب توب.jpg" alt="">
+           <h3>laptop</h3>
+           <dir class="price">$500  </dir>
+           <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+           </div>
+           <a href="#" class="btn">add to cart</a>
+          </div>
+   
+        </div>
+    </div>
+
+</section>
+
+<section class="brand" id="brand">
+    <h1 class="heading">cutomer's <span>Ratings</span></h1>
+
+    <div class="swiper brand-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide boox">
+                <img src="imgs\29497708_1744264178967266_7681801265210195968_n.jpg" alt="">
+                <p>Convert to e-commerce easily and quickly and own your own e-store with all the advantages of e-commerce with the provision of support services</p>
+                <h3>Mohamed Ahmed</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+
+            </div>
+
+            <div class="swiper-slide boox">
+                <img src="imgs\29497708_1744264178967266_7681801265210195968_n.jpg" alt="">
+                <p>Convert to e-commerce easily and quickly and own your own e-store with all the advantages of e-commerce with the provision of support services</p>
+                <h3>Ahmed Nasr</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+
+            </div>
+
+            <div class="swiper-slide boox">
+                <img src="imgs\29497708_1744264178967266_7681801265210195968_n.jpg" alt="">
+                <p>Convert to e-commerce easily and quickly and own your own e-store with all the advantages of e-commerce with the provision of support services</p>
+                <h3>Mohamed Abdel Raouf</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+
+            </div>
+
+            <div class="swiper-slide boox">
+                <img src="imgs\330382436_589964366094901_1436784602220964513_n.jpg" alt="">
+                <p>Convert to e-commerce easily and quickly and own your own e-store with all the advantages of e-commerce with the provision of support services</p>
+                <h3>Israa Ibrahim </h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+
+            </div>
+            <div class="swiper-slide boox">
+                <img src="imgs\343009456_1031010387876561_472438979074457977_n.jpg" alt="">
+                <p>Convert to e-commerce easily and quickly and own your own e-store with all the advantages of e-commerce with the provision of support services</p>
+                <h3>Ahmed Mohamed</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+
+            </div>
+            <div class="swiper-slide boox">
+                <img src="imgs\29497708_1744264178967266_7681801265210195968_n.jpg" alt="">
+                <p>Convert to e-commerce easily and quickly and own your own e-store with all the advantages of e-commerce with the provision of support services</p>
+                <h3>Ahmed Alsyed</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+           
+            <div class="swiper-slide boox">
+                <img src="imgs\تنلا.jpg" alt="">
+                <p>Convert to e-commerce easily and quickly and own your own e-store with all the advantages of e-commerce with the provision of support services</p>
+                <h3>Aisha</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+        
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- footer -->
+
+<section class="footer">
+    <div class="boox-container">
+        
+
+        <div class="boox">
+            <h3>extra</h3>
+            <p>Browse the best Extra offers today. A large selection of home appliances, mobile phones, cameras, from the best international brands. Safe online shopping and fast delivery</p>
+            <dir class="shaer">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-whatsapp"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </dir>
+        </div>
+
+        <div class="boox">
+            <h3>contact info</h3>
+            <a href="#" class="links"><i class="fa-solid fa-phone"></i>+201011618164 </a>
+            <a href="#" class="links"><i class="fa-brands fa-whatsapp"></i>+201015434138 </a>
+            <a href="#" class="links"><i class="fa-regular fa-envelope"></i>alhamidshher22@gmail.com </a>
+            <a href="#" class="links" id="mmqq"><i class="fa-solid fa-location-dot"></i>Cairo, Kafr El-Sheikh - 047.000</a>
+        </div>
+
+        <div class="boox">
+            <h3>quick links</h3>
+            <a href="#features" class="links" ><i class="fa-solid fa-arrow-right"></i>features </a>
+            <a href="#smartphones" class="links"><i class="fa-solid fa-arrow-right"></i> smart phones</a>
+            <a href="#Householdappliance" class="links"><i class="fa-solid fa-arrow-right"></i>Household appliance </a>
+            <a href="#smartaccessories" class="links"><i class="fa-solid fa-arrow-right"></i>smart accessories </a>
+            <a href="#brand" class="links"><i class="fa-solid fa-arrow-right"></i>Ratings</a>
+
+        </div>
+
+        <div class="boox">
+            <h3>news letter</h3>
+            <p>subscribe for latest updates</p>
+            <input type="emil" placeholder="your emil" class="emil">
+            <input type="submit" class="btn" value="subscribe" >
+            <hr>
+            <img src="imgs/Visa_2014.svg.png" alt="" class="MasterCard-img">
+            <img src="imgs/MasterCard..png" alt="" class="MasterCard-img">
+
+        </div>
+
+    </div>
+
+
+</section>
+
+
+
+
+
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("y2w4CY23TCRt6Rk_3");
+   })();
+</script>
+
+
+
+<!-- swiper js file link -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<!-- custom js file link -->
+<script src="min.js"></script>
+</body>
+</html>
